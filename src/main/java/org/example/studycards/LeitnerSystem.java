@@ -1,3 +1,4 @@
+// LeitnerSystem.java
 package org.example.studycards;
 
 import java.util.ArrayList;
@@ -64,6 +65,13 @@ public class LeitnerSystem extends StudyMethod{
         return  response;
     }
 
+    public String getRandomCardFromBox() {
+        String response = "";
+        response += getMethodName();
+        response += getRandomCard(boxes);
+        return response;
+    }
+
     public void addCardToBox(Integer id, Integer boxId) {
         this.boxes.get(boxId).addCard(id);
     }
@@ -104,5 +112,4 @@ public class LeitnerSystem extends StudyMethod{
         refBox.removeCard(cardId);
         boxes.get(Math.max(boxId - 1, 0)).addCard(cardId);
     }
-
 }
