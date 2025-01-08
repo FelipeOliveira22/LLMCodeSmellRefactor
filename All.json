@@ -1,10 +1,10 @@
 {
   "formatVersion": 0,
   "pmdVersion": "7.9.0",
-  "timestamp": "2025-01-06T14:19:30.033-03:00",
+  "timestamp": "2025-01-07T21:23:10.505-03:00",
   "files": [
     {
-      "filename": ".\\src\\main\\java\\org\\example\\studycards\\LeitnerSystem.java",
+      "filename": "./src/main/java/org/example/studycards/LeitnerSystem.java",
       "violations": [
         {
           "beginline": 44,
@@ -20,7 +20,7 @@
       ]
     },
     {
-      "filename": ".\\src\\main\\java\\org\\example\\studymaterial\\AudioReference.java",
+      "filename": "./src/main/java/org/example/studymaterial/AudioReference.java",
       "violations": [
         {
           "beginline": 33,
@@ -36,7 +36,7 @@
       ]
     },
     {
-      "filename": ".\\src\\main\\java\\org\\example\\studymaterial\\Reference.java",
+      "filename": "./src/main/java/org/example/studymaterial/Reference.java",
       "violations": [
         {
           "beginline": 3,
@@ -52,12 +52,12 @@
       ]
     },
     {
-      "filename": ".\\src\\main\\java\\org\\example\\studyplanner\\HabitTracker.java",
+      "filename": "./src/main/java/org/example/studyplanner/HabitTracker.java",
       "violations": [
         {
-          "beginline": 57,
+          "beginline": 61,
           "begincolumn": 24,
-          "endline": 57,
+          "endline": 61,
           "endcolumn": 228,
           "description": "Avoid long parameter lists.",
           "rule": "ExcessiveParameterList",
@@ -68,7 +68,7 @@
       ]
     },
     {
-      "filename": ".\\src\\main\\java\\org\\example\\studyplanner\\KanbanView.java",
+      "filename": "./src/main/java/org/example/studyplanner/KanbanView.java",
       "violations": [
         {
           "beginline": 77,
@@ -84,7 +84,7 @@
       ]
     },
     {
-      "filename": ".\\src\\main\\java\\org\\example\\studyplanner\\ToDo.java",
+      "filename": "./src/main/java/org/example/studyplanner/ToDo.java",
       "violations": [
         {
           "beginline": 5,
@@ -100,7 +100,7 @@
       ]
     },
     {
-      "filename": ".\\src\\main\\java\\org\\example\\studyplanner\\TodoTracker.java",
+      "filename": "./src/main/java/org/example/studyplanner/TodoTracker.java",
       "violations": [
         {
           "beginline": 29,
@@ -116,7 +116,7 @@
       ]
     },
     {
-      "filename": ".\\src\\main\\java\\org\\example\\studyregistry\\StudyGoal.java",
+      "filename": "./src/main/java/org/example/studyregistry/StudyGoal.java",
       "violations": [
         {
           "beginline": 29,
@@ -132,7 +132,7 @@
       ]
     },
     {
-      "filename": ".\\src\\main\\java\\org\\example\\studyregistry\\StudyMaterial.java",
+      "filename": "./src/main/java/org/example/studyregistry/StudyMaterial.java",
       "violations": [
         {
           "beginline": 61,
@@ -148,7 +148,7 @@
       ]
     },
     {
-      "filename": ".\\src\\main\\java\\org\\example\\studyregistry\\StudyObjective.java",
+      "filename": "./src/main/java/org/example/studyregistry/StudyObjective.java",
       "violations": [
         {
           "beginline": 85,
@@ -164,7 +164,7 @@
       ]
     },
     {
-      "filename": ".\\src\\main\\java\\org\\example\\studyregistry\\StudyPlan.java",
+      "filename": "./src/main/java/org/example/studyregistry/StudyPlan.java",
       "violations": [
         {
           "beginline": 40,
@@ -180,7 +180,7 @@
       ]
     },
     {
-      "filename": ".\\src\\main\\java\\org\\example\\studyregistry\\StudyTaskManager.java",
+      "filename": "./src/main/java/org/example/studyregistry/StudyTaskManager.java",
       "violations": [
         {
           "beginline": 30,
@@ -196,7 +196,7 @@
       ]
     },
     {
-      "filename": ".\\src\\main\\java\\org\\example\\studyregistry\\Task.java",
+      "filename": "./src/main/java/org/example/studyregistry/Task.java",
       "violations": [
         {
           "beginline": 5,
@@ -212,7 +212,7 @@
       ]
     },
     {
-      "filename": ".\\src\\main\\java\\org\\example\\studysearch\\SearchLog.java",
+      "filename": "./src/main/java/org/example/studysearch/SearchLog.java",
       "violations": [
         {
           "beginline": 8,
