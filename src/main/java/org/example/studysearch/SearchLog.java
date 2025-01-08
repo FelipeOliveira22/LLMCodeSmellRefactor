@@ -5,6 +5,11 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+@FunctionalInterface
+interface SearchComponent {
+    List<String> search(String text);
+}
+
 public class SearchLog {
     private List<String> searchHistory;
     private Map<String, Integer> searchCount;
@@ -19,18 +24,36 @@ public class SearchLog {
         numUsages = 0;
         isLocked = false;
     }
+
+    public List<String> handleSearch(String text, List<SearchComponent> searchComponents) {
+        List<String> results = new ArrayList<>();
+
+        for (SearchComponent component : searchComponents) {
+            results.addAll(component.search(text));
+        }
+
+        addSearchHistory(text);
+        setNumUsages(getNumUsages() + 1);
+        results.add("\nLogged in: " + getLogName());
+        return results;
+    }
+
     public void addSearchHistory(String searchHistory) {
         this.searchHistory.add(searchHistory);
     }
+
     public List<String> getSearchHistory() {
         return searchHistory;
     }
+
     public void setSearchHistory(List<String> searchHistory) {
         this.searchHistory = searchHistory;
     }
+
     public Map<String, Integer> getSearchCount() {
         return searchCount;
     }
+
     public void setSearchCount(Map<String, Integer> searchCount) {
         this.searchCount = searchCount;
     }
